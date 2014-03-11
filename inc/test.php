@@ -1,9 +1,17 @@
 <?php
 
-echo "3--";
+$a = 1;
 
-phpinfo();
+echo "A--";
 
-echo "4--";
+$a = 2;
+
+echo "B--";
+
+$a = 3;
+
+echo "C--";
+
+$a = 4;
 
 ?>
