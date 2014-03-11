@@ -22,7 +22,16 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>This is a test site 2.</p>
+        <h1>Test</h1>
+        
+        <?php
+            
+            require_once('inc/test.php');
+
+
+
+
+        ?>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
