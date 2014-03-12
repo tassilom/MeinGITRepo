@@ -25,9 +25,16 @@
         <h1>Test</h1>
         
         <?php
-            
+        
+			$start = microtime(true);
+	        
             require_once('inc/test.php');
 
+            $end = microtime(true);
+            
+            $diff = $end - $start;
+            echo "Benötigte Zeit: " . $diff;
+            
         ?>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
